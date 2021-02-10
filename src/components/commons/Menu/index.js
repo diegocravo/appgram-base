@@ -24,9 +24,9 @@ const Menu = () => {
         <Logo />
       </MenuWrapper.LeftSide>
       <MenuWrapper.CenterSide>
-        {links.map((link) => {
+        {links.map((link, index) => {
           return (
-            <li>
+            <li key={`link___${index}`}>
               <a href={link.url}>{link.texto}</a>
             </li>
           );
