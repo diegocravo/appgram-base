@@ -1,6 +1,6 @@
 import React from "react";
 import { MenuWrapper } from "./styles/MenuWrapper";
-import { Logo } from "../../../theme/Logo";
+import { Logo } from "../../../theme/Logo/index";
 
 const Menu = () => {
   const links = [
@@ -33,6 +33,7 @@ const Menu = () => {
         })}
       </MenuWrapper.CenterSide>
       <MenuWrapper.RightSide>
+        <h1>diego</h1>
         <button>Entrar</button>
         <button>Cadastrar</button>
       </MenuWrapper.RightSide>
