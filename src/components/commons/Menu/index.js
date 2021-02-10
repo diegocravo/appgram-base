@@ -5,14 +5,17 @@ import { Logo } from "../../../theme/Logo";
 const Menu = () => {
   const links = [
     {
+      index: 1,
       texto: "Home",
       url: "/",
     },
     {
+      index: 2,
       texto: "Perguntas Frequentes",
       url: "/faq",
     },
     {
+      index: 3,
       texto: "Sobre",
       url: "/sobre",
     },
