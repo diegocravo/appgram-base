@@ -1,8 +1,8 @@
 import React from "react";
-import { Logo } from "../../../theme/Logo/index.js";
 import { Text } from "../../foundation/Text";
 import { Button } from "../Button";
 import { MenuWrapper } from "./styles/MenuWrapper";
+import { Logo } from "../../../theme/Logo/Index";
 
 export default function Menu() {
   return (
