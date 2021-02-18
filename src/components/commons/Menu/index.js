@@ -2,13 +2,13 @@ import React from "react";
 import { Text } from "../../foundation/Text";
 import { Button } from "../Button";
 import { MenuWrapper } from "./styles/MenuWrapper";
-import Logo from "../../../theme/Logo/index";
+import { Logos } from "../../../theme/Logos";
 
 export default function Menu() {
   return (
     <MenuWrapper>
       <MenuWrapper.LeftSide>
-        <Logo />
+        <Logos />
       </MenuWrapper.LeftSide>
       <MenuWrapper.CentralSide as="ul">
         {[
